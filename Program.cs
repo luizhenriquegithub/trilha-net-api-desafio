@@ -20,7 +20,7 @@ builder.Services.AddSwaggerGen();
 
 //Validator
 builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddValidatorsFromAssemblyContaining<TarefaValidation>();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
 var app = builder.Build();
 
